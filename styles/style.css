@@ -6,3 +6,160 @@ Green: #00B172
 White: #FFF
 
 */
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100vw;
+}
+
+.headerdiv{
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+nav {
+  width: 400px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
+.mainlogo {
+  width: 150px;
+}
+
+.first-section {
+  background-image: url(../images/landing.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  padding: 300px 0;
+  position: relative;
+}
+
+h1{
+  font-size: 5em;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.quote {
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+}
+
+.second-section {
+  margin-top: 100px;
+}
+
+h2 {
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: bold;
+  color: #1A1A1A;
+}
+
+.second-section-div{
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+h3 {
+  font-size: 2em;
+  color: #00B172;
+  text-align: center;
+}
+
+.list-box {
+  box-sizing: border-box;
+  margin: 50px;
+  width: 400px;
+  text-align: center;
+}
+
+.list-box img {
+  height: 100px;
+}
+
+.list-box p {
+  text-align: center;
+}
+
+.third-section {
+  background-color: #00B172;
+  margin: 20px;
+  padding: 100px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+
+.div-kanye {
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  border-bottom: 3px solid white;
+  width: 600px;
+  margin-bottom: 80px;
+}
+
+.third-section h3 {
+  color: white;
+  text-align: left;
+}
+
+.third-section p {
+  font-size: 1.5em;
+  color: white;
+  text-align: left;
+}
+
+.guide-box {
+  box-sizing: border-box;
+  width: 350px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.rightside {
+  margin-top: 100px;
+  display: flex;
+  justify-content: right;
+}
+
+.whiteicon {
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.appcapture {
+  width: 350px;
+}
